@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		EA1D86711D409AA300979E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D86701D409AA300979E91 /* main.m */; };
 		EA1D86741D409AA300979E91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D86731D409AA300979E91 /* AppDelegate.m */; };
-		EA1D86771D409AA300979E91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D86761D409AA300979E91 /* ViewController.m */; };
-		EA1D867A1D409AA300979E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1D86781D409AA300979E91 /* Main.storyboard */; };
 		EA1D867C1D409AA300979E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1D867B1D409AA300979E91 /* Assets.xcassets */; };
 		EA1D867F1D409AA300979E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1D867D1D409AA300979E91 /* LaunchScreen.storyboard */; };
 		EA1D868A1D409AA300979E91 /* StopWatch1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D86891D409AA300979E91 /* StopWatch1Tests.m */; };
 		EA1D86951D409AA300979E91 /* StopWatch1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D86941D409AA300979E91 /* StopWatch1UITests.m */; };
+		EA1D86A51D409AEC00979E91 /* stopWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D86A31D409AEC00979E91 /* stopWatchViewController.m */; };
+		EA1D86A61D409AEC00979E91 /* stopWatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1D86A41D409AEC00979E91 /* stopWatchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,6 @@
 		EA1D86701D409AA300979E91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA1D86721D409AA300979E91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA1D86731D409AA300979E91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA1D86751D409AA300979E91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA1D86761D409AA300979E91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EA1D86791D409AA300979E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA1D867B1D409AA300979E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1D867E1D409AA300979E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1D86801D409AA300979E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +48,9 @@
 		EA1D86901D409AA300979E91 /* StopWatch1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatch1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1D86941D409AA300979E91 /* StopWatch1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopWatch1UITests.m; sourceTree = "<group>"; };
 		EA1D86961D409AA300979E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1D86A21D409AEC00979E91 /* stopWatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stopWatchViewController.h; sourceTree = "<group>"; };
+		EA1D86A31D409AEC00979E91 /* stopWatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stopWatchViewController.m; sourceTree = "<group>"; };
+		EA1D86A41D409AEC00979E91 /* stopWatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = stopWatchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,9 @@
 			children = (
 				EA1D86721D409AA300979E91 /* AppDelegate.h */,
 				EA1D86731D409AA300979E91 /* AppDelegate.m */,
-				EA1D86751D409AA300979E91 /* ViewController.h */,
-				EA1D86761D409AA300979E91 /* ViewController.m */,
-				EA1D86781D409AA300979E91 /* Main.storyboard */,
+				EA1D86A21D409AEC00979E91 /* stopWatchViewController.h */,
+				EA1D86A31D409AEC00979E91 /* stopWatchViewController.m */,
+				EA1D86A41D409AEC00979E91 /* stopWatchViewController.xib */,
 				EA1D867B1D409AA300979E91 /* Assets.xcassets */,
 				EA1D867D1D409AA300979E91 /* LaunchScreen.storyboard */,
 				EA1D86801D409AA300979E91 /* Info.plist */,
@@ -248,7 +248,7 @@
 			files = (
 				EA1D867F1D409AA300979E91 /* LaunchScreen.storyboard in Resources */,
 				EA1D867C1D409AA300979E91 /* Assets.xcassets in Resources */,
-				EA1D867A1D409AA300979E91 /* Main.storyboard in Resources */,
+				EA1D86A61D409AEC00979E91 /* stopWatchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1D86771D409AA300979E91 /* ViewController.m in Sources */,
+				EA1D86A51D409AEC00979E91 /* stopWatchViewController.m in Sources */,
 				EA1D86741D409AA300979E91 /* AppDelegate.m in Sources */,
 				EA1D86711D409AA300979E91 /* main.m in Sources */,
 			);
@@ -311,14 +311,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA1D86781D409AA300979E91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA1D86791D409AA300979E91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EA1D867D1D409AA300979E91 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
